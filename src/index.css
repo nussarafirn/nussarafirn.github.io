@@ -1,3 +1,8 @@
+.App {
+  width: 800px;
+  margin: auto;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,41 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  
+  font-size: medium;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-menu > nav {
+  margin-left: 50px;
+}
+
+.button {
+  user-select: none;
+}
+
+.button:hover {
+  /* font-style: italic; */
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color:rgb(255, 186, 36) ;
+}
+
+.button:active {
+  background: rgb(255, 186, 36)
 }
