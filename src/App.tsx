@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Me from './pages/Me';
 import Blog from './pages/Blog';
 import Work from './pages/Work';
@@ -12,7 +12,7 @@ function App() {
 
   const { result, dencrypt } = useDencrypt();
 
-  React.useEffect(() => {
+  useEffect(() => {
     let i = 0;
 
     const decryptValue = () => {
@@ -24,7 +24,7 @@ function App() {
     const action = setInterval(decryptValue, 5500);
 
     return () => clearInterval(action);
-  }, []);
+  }, [dencrypt]);
   
 
 
@@ -36,7 +36,11 @@ function App() {
     <div className="App">
       <div className="nav-bar"> 
         <div className="home-button button" onClick={() => clickNav(Home())}>
-          <img src="./img/fern.png" style={{height: "25px", width: "auto"}} />
+          <img
+            src="./img/fern.png"
+            style={{height: "25px", width: "auto"}}
+            alt="fern"
+          />
           {result}
         </div>
 
