@@ -92,6 +92,33 @@ h1 > span {
   flex-direction: row;
 }
 
+.experience-card-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.experience-card-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.experience-card-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.experience-card-date {
+  width: 300px;
+  margin-top: 2px;
+  text-align: right;
+}
+
 @media screen and (max-width: 800px) {
 
   .img-mask {
@@ -101,6 +128,14 @@ h1 > span {
   }
 
   .profile-wrapper {
+    flex-direction: column;
+  }
+
+  .experience-card-container {
+    flex-direction: column;
+  }
+
+  .experience-card-header {
     flex-direction: column;
   }
 }
