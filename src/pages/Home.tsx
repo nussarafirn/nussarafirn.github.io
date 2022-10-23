@@ -1,12 +1,15 @@
 import React from 'react';
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
-function Home() {
+function home() {
   return (
     <>
-        <h1>Nussara Tieanklin</h1>
-
+      <img src="img/nussara_headshot.jpg" className='img-mask' width={300}></img>
+      <p>Hello TESTING</p>
     </>
+
   );
+
 }
 
-export default Home;
+export default home;

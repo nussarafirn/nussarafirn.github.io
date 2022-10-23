@@ -1,14 +1,13 @@
 import React, {useEffect, useState} from 'react';
-import Me from './pages/Me';
 import Blog from './pages/Blog';
 import Work from './pages/Work';
-import Home from './pages/Home';
+import home from './pages/Home';
 import useDencrypt from './dencrypt'
 
 const values = ["Firn", "Nussara Tieanklin", "นุสรา เตี้ยนกลิ่น", "เฟิร์น"];
 
 function App() {
-  const [page, setPage] = useState<JSX.Element>(Home);
+  const [page, setPage] = useState<JSX.Element>(home);
 
   const { result, dencrypt } = useDencrypt();
 
@@ -35,7 +34,7 @@ function App() {
   return (
     <div className="App">
       <div className="nav-bar"> 
-        <div className="home-button button" onClick={() => clickNav(Home())}>
+        <div className="home-button button" onClick={() => clickNav(home())}>
           <img
             src="./img/fern.png"
             style={{height: "25px", width: "auto"}}
@@ -53,10 +52,14 @@ function App() {
             className="button"
             onClick={() => clickNav(Blog())}
           ><span>Blog</span></nav>
-           <nav
+          <nav className="button"><span><a
             className="button"
-            onClick={() => clickNav(Me())}
-          ><span>Me</span></nav>
+            href="https://nussarafirn.github.io/resume/"
+            style={{
+              color: "black",
+              
+            }}
+          >CV</a></span></nav>
         </div>
 
       </div>

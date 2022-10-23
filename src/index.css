@@ -1,6 +1,8 @@
 .App {
-  width: 800px;
+  max-width: 800px;
   margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 body {
@@ -40,6 +42,7 @@ code {
 
 .button {
   user-select: none;
+  text-decoration: none;
 }
 
 .button:hover {
@@ -52,4 +55,23 @@ code {
 
 .button:active {
   background: rgb(255, 186, 36)
+}
+
+.img-mask {
+  clip-path: circle(150px at 150px 185px);
+  @media screen and (min-width: 1000px) {
+    align-self: center;
+  }
+}
+
+.img-mask {
+  margin-left: 0px;
+  display: block;
+}
+
+@media screen and (max-width: 800px) {
+  .img-mask {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
