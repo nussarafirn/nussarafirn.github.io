@@ -7,10 +7,10 @@ type PictureProps = React.ImgHTMLAttributes<HTMLImageElement> & {
   type: string;
 }
 
-function Picture({containerClassName, type, ...imgProps}: PictureProps) {
+function Picture({containerClassName, type, alt, ...imgProps}: PictureProps) {
     return <picture className={containerClassName}>
       <source srcSet={imgProps.src} {...{type}} />
-      <img {...imgProps} />
+      <img {...imgProps} alt={alt ?? ''} />
     </picture>;
 }
 

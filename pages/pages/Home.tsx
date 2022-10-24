@@ -7,7 +7,7 @@ function home() {
     <div className='profile-wrapper'>
       <Picture
         className='img-mask'
-        containerClassName='img-mask'
+        containerClassName='profile-img-container'
         src='img/nussara_headshot.jpg'
         type='image/jpg'
         alt='firn'

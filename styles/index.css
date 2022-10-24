@@ -79,12 +79,15 @@ h1 > span {
   font-weight: 350;
 }
 
-.img-mask {
-  clip-path: circle(150px at 150px 150px);
+.profile-img-container {
   align-self: center;
   margin-left: 0px;
   margin-right: 50px;
   display: block;
+}
+
+.img-mask {
+  clip-path: circle(150px at 150px 150px);
 }
 
 .profile-wrapper {
