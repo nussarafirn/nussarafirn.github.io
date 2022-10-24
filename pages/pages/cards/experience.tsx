@@ -42,7 +42,7 @@ function CardContent({title, affiliation, date, description}: CardContentProps) 
     </div>
     <div className='experience-card-affiliation'>{affiliation}</div>
     <ul>
-      {description.map(item => <li>{item}</li>)}
+      {description.map((item, i) => <li key={i}>{item}</li>)}
     </ul>
   </div>;
 }

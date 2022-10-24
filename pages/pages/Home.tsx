@@ -10,7 +10,7 @@ function home() {
         <h1> Hello, <span>Firn</span> is here!</h1>
 
         <p>
-          I'm Nussara Tieanklin or known among friends and family as Firn.
+          I&apos;m Nussara Tieanklin or known among friends and family as Firn.
           I am a second-year Ph.D. Student, advised by <a href='https://kurti.sh/' className='button link'>
             Professor Kurtis Heimerl</a> in the <a href='https://ictd.cs.washington.edu' className='button link'>Information
           and Communication Technology for Development (ICTD) Lab </a> at 
