@@ -10,11 +10,11 @@ function home() {
         <h1> Hello, <span>Firn</span> is here!</h1>
 
         <p>
-          Hello! My name is Nussara Tieanklin or known among friends and family as Firn.
+          I'm Nussara Tieanklin or known among friends and family as Firn.
           I am a second-year Ph.D. Student, advised by <a href='https://kurti.sh/' className='button link'>
             Professor Kurtis Heimerl</a> in the <a href='https://ictd.cs.washington.edu' className='button link'>Information
           and Communication Technology for Development (ICTD) Lab </a> at 
-          <a href='https://www.cs.washington.edu' className='button link'> Paul G. Allen School</a>,
+          Paul G. Allen School of Compuer Science and Engineering,
           University of Washington (Seattle, WA).
         </p>
         <p>
