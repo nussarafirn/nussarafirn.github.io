@@ -2,13 +2,9 @@ import React, { useEffect } from 'react';
 import Image from 'next/image'
 import useDencrypt from '../hooks/dencrypt';
 
-type FirnProps = {
-    onClick: React.MouseEventHandler<HTMLDivElement>;
-};
-
 const values = ["Firn", "Nussara Tieanklin", "นุสรา เตี้ยนกลิ่น", "เฟิร์น"];
 
-function Firn({onClick}: FirnProps) {
+function Firn() {
   const [result, dencrypt] = useDencrypt();
 
   useEffect(() => {
@@ -25,14 +21,16 @@ function Firn({onClick}: FirnProps) {
     return () => clearInterval(action);
   }, [dencrypt]);
 
-  return<div className="home-button button" onClick={onClick}>
-    <Image
-      src="img/fern.png"
-      alt="fern"
-      width={25}
-      height={25}
-    />
-    {result}
+  return<div className="home-button button">
+    <a href='.'>
+      <Image
+        src="img/fern.png"
+        alt="fern"
+        width={25}
+        height={25}
+      />
+      {result}
+    </a>
   </div>;
 }
 

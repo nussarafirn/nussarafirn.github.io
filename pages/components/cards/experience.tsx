@@ -1,5 +1,5 @@
 import React from 'react';
-import Picture from '../../components/picture';
+import Picture from '../picture';
 
 
 interface CardContentProps {
