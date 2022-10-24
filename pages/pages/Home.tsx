@@ -1,10 +1,18 @@
 import React from 'react';
+import Picture from '../components/picture';
 // import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 function home() {
   return (
     <div className='profile-wrapper'>
-      <img src="img/nussara_headshot.jpg" className='img-mask' width={300} height={300} alt="my headshot"></img>
+      <Picture
+        className='img-mask'
+        containerClassName='img-mask'
+        src='img/nussara_headshot.jpg'
+        type='image/jpg'
+        alt='firn'
+        width={300}
+      />
       
       <div style={{textAlign: 'justify', fontFamily: 'DM Sans'}}>
         <h1> Hello, <span>Firn</span> is here!</h1>
@@ -30,7 +38,6 @@ function home() {
         </p>
       </div>
     </div>
-
   );
 
 }

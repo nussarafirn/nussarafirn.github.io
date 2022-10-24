@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Picture from '../../components/picture';
 
 
 interface CardContentProps {
@@ -48,7 +48,15 @@ function CardContent({title, affiliation, date, description}: CardContentProps) 
 }
 
 function ImageContent({thumbnail}: ImageContentProps) {
-    return <img className='experience-img' src={thumbnail} alt='' width={200} height={200}/>
+  return <Picture
+      className='experience-img'
+      containerClassName='experience-img'
+      src={thumbnail}
+      type={'image/' + thumbnail.substring(thumbnail.length - 3)}
+      alt=''
+      width={200}
+      height={200}
+    />;
 }
 
 export default Experience;
