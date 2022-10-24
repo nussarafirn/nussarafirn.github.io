@@ -35,6 +35,7 @@ function Experience({title, affiliation, date, description, thumbnail, left}: Ex
 }
 
 function CardContent({title, affiliation, date, description}: CardContentProps) {
+  description = description ?? [];
   return <div className="experience-card-content">
     <div className="experience-card-header">
       <h3 className='experience-card-title'>{title}</h3>
@@ -52,7 +53,6 @@ function ImageContent({thumbnail}: ImageContentProps) {
       className='experience-img'
       containerClassName='experience-img'
       src={thumbnail}
-      type={'image/' + thumbnail.substring(thumbnail.length - 3)}
       alt=''
       width={200}
       height={200}

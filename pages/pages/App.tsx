@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react';
-import Blog from './pages/Blog';
-import Work from './pages/Work';
-import home from './pages/Home';
-import useDencrypt from './dencrypt'
+import Blog from './Blog';
+import Work from './Work';
+import home from './Home';
+import useDencrypt from '../hooks/dencrypt'
 import Image from 'next/image';
 
 const values = ["Firn", "Nussara Tieanklin", "นุสรา เตี้ยนกลิ่น", "เฟิร์น"];
@@ -10,7 +10,7 @@ const values = ["Firn", "Nussara Tieanklin", "นุสรา เตี้ยน
 function App() {
   const [page, setPage] = useState<JSX.Element>(home);
 
-  const { result, dencrypt } = useDencrypt();
+  const [result, dencrypt] = useDencrypt();
 
   useEffect(() => {
     let i = 0;

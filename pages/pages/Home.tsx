@@ -9,7 +9,6 @@ function home() {
         className='img-mask'
         containerClassName='profile-img-container'
         src='img/nussara_headshot.jpg'
-        type='image/jpg'
         alt='firn'
         width={300}
       />

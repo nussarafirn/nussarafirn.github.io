@@ -84,10 +84,10 @@ export const useDencrypt = (options?: Partial<typeof defaultOptions>) => {
     return () => clearInterval(crypting);
   }, [value, chars, interval]);
 
-  return {
+  return [
     result,
-    dencrypt: setValue
-  };
+    setValue
+  ] as const;
 };
 
 export default useDencrypt;
