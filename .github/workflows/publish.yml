@@ -19,10 +19,11 @@ jobs:
       run: npm ci
       
     - name: Build
-      run: npm run build
+      run: npm run build && npm run export && touch ./out/.nojekyll
 
-    - name: Publish website
-      uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4.3.3
       with:
-        repo-token: ${{ secrets.GH_PAT }}
-        site-directory: 'build'
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: out # The folder the action should deploy.
