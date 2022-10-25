@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         width={300}
       />
       
-      <div style={{textAlign: 'justify', fontFamily: 'DM Sans'}}>
+      <div>
         <h1> Hello, <span>Firn</span> is here!</h1>
 
         <p>
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           I am a second-year Ph.D. Student, advised by <a href='https://kurti.sh/' className='button link'>
             Professor Kurtis Heimerl</a> in the <a href='https://ictd.cs.washington.edu' className='button link'>Information
           and Communication Technology for Development (ICTD) Lab </a> at 
-          Paul G. Allen School of Compuer Science and Engineering,
+          Paul G. Allen School of Computer Science and Engineering,
           University of Washington (Seattle, WA).
         </p>
         <p>
@@ -36,6 +36,8 @@ const Home: NextPage = () => {
           As a techno-social lead in the <a href='https://seattlecommunitynetwork.org/' className='button link'>Seattle Community Network</a>, I conduct qualitative researches,
           help with installations, teach technical workshops, and expand community outreach. 
         </p>
+
+        <p>Let's exchange ideas and opportunity here at <a href='mailto:nussara@cs.washington.edu' className='button link' style={{fontFamily: 'Courier Prime'}}> nussara [at] cs.washington.edu </a>.</p>
       </div>
     </div>
   </Page>;

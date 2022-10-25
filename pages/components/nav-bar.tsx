@@ -7,6 +7,7 @@ function NavBar() {
     <Firn/>
     <div className="nav-menu">
       <NavButton href="./work">Work</NavButton>
+      <NavButton href="./pub">Publications</NavButton>
       <NavButton href="./blog">Blog</NavButton>
       <NavButton href="https://nussarafirn.github.io/resume/">CV</NavButton>
     </div>
