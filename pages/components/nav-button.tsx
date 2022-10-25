@@ -7,15 +7,9 @@ type NavButton = {
 
 function NavButton({href, children}: NavButton) {
   return <nav className="button">
-    <span>
-      <a
-        className="button"
-        href={href}
-        style={{color: "black"}}
-      >
-        {children}
-      </a>
-    </span>
+    <a className="button" href={href}>
+      {children}
+    </a>
   </nav>;
 }
 

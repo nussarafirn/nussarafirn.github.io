@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import url('https://unpkg.com/@coreui/icons/css/brand.min.css');
 
 .App {
   max-width: 800px;
@@ -143,7 +144,7 @@ h1 > span {
   position: absolute;
   top: 0;
   line-height: 1.5;
-  font-size: 14px;
+  font-size: 13px;
   background-color: #ffffff;
   color: #ffffff;
   padding: 5px 8px;
@@ -185,39 +186,46 @@ h1 > span {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  background-color: rgb(164, 113, 4);
 }
 .social-wrapper .icon:hover span,
 .social-wrapper .icon:hover .tooltip {
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
 }
-.social-wrapper .facebook:hover,
-.social-wrapper .facebook:hover .tooltip,
-.social-wrapper .facebook:hover .tooltip::before {
-  background-color: #3b5999;
+.social-wrapper .linkedin:hover,
+.social-wrapper .linkedin:hover .tooltip,
+.social-wrapper .linkedin:hover .tooltip::before {
+  /* background-color: #3b5999; */
+  /* background-color:rgb(255, 186, 36) ; */
   color: #ffffff;
+  background-color: rgb(164, 113, 4);
 }
 .social-wrapper .twitter:hover,
 .social-wrapper .twitter:hover .tooltip,
 .social-wrapper .twitter:hover .tooltip::before {
-  background-color: #46c1f6;
+  /* background-color: #46c1f6; */
+  background-color: rgb(164, 113, 4);
   color: #ffffff;
 }
 .social-wrapper .instagram:hover,
 .social-wrapper .instagram:hover .tooltip,
 .social-wrapper .instagram:hover .tooltip::before {
-  background-color: #e1306c;
+  /* background-color: #e1306c; */
+  background-color: rgb(164, 113, 4);
   color: #ffffff;
 }
 .social-wrapper .github:hover,
 .social-wrapper .github:hover .tooltip,
 .social-wrapper .github:hover .tooltip::before {
-  background-color: #333333;
+  /* background-color: #333333; */
+  background-color: rgb(164, 113, 4);
   color: #ffffff;
 }
-.social-wrapper .youtube:hover,
-.social-wrapper .youtube:hover .tooltip,
-.social-wrapper .youtube:hover .tooltip::before {
-  background-color: #de463b;
+.social-wrapper .google-scholar:hover,
+.social-wrapper .google-scholar:hover .tooltip,
+.social-wrapper .google-scholar:hover .tooltip::before {
+  /* background-color: #de463b; */
+  background-color: rgb(164, 113, 4);
   color: #ffffff;
 }
 

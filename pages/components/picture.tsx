@@ -1,7 +1,5 @@
 import React from 'react';
 
-
-
 type PictureProps = React.ImgHTMLAttributes<HTMLImageElement> & {
   containerClassName?: string;
 }
