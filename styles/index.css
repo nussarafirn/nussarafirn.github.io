@@ -261,6 +261,11 @@ p {
     flex-direction: column;
   }
 
+  .profile-img-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .experience-card-container {
     flex-direction: column;
   }
