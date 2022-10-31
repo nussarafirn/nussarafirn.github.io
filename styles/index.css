@@ -114,7 +114,8 @@ p {
 .experience-card-content {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
 }
 
 .experience-card-header {
@@ -131,6 +132,12 @@ p {
   width: 300px;
   margin-top: 2px;
   text-align: right;
+}
+
+.experience-img {
+  max-width: 100px;
+  max-height: 100px;
+  align-self:flex-start;
 }
 
 .social-wrapper .icon{

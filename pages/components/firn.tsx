@@ -26,8 +26,8 @@ function Firn() {
       <Image
         src="img/fern.png"
         alt="fern"
-        width={25}
-        height={25}
+        width={20}
+        height={20}
       />
       {result}
     </a>

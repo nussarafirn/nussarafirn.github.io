@@ -37,19 +37,19 @@ const Home: NextPage = () => {
           date='05/2022 - 07/2022'
           description={[
             'Applied Data Science practices analyzing the impact of cruise emissions and used Deep Learning for time series forecasting on the air quality of the second largest city of Denmark, Århus.',
-            ' This work is a collaboration with the Aarhus City Lab team, ITK department at DOKK1 (Århus, Denmark). A media coverage for the work: \href{https://itk.aarhus.dk/nyheder/projektnyheder/krydstogtskibe/cruise-ships/}{itk.aarhus.dk/nyheder/projektnyheder/krydstogtskibe/cruise-ships/}. More information, please visit github.com/nussarafirn/aarhus-aqi.'
+            ' This work is a collaboration with the Aarhus City Lab team, ITK department at DOKK1 (Århus, Denmark). A media coverage for the work, https://itk.aarhus.dk/nyheder/projektnyheder/krydstogtskibe/cruise-ships/. More information, please visit github.com/nussarafirn/aarhus-aqi.'
           ]}
           thumbnail='img/cse.png'
           left
         />
 
       <Experience
-          title="{Graduate and Undergraduate Teaching Assistant"
+          title="Graduate and Undergraduate Teaching Assistant"
           affiliation='Paul G. Allen School of Computer Science and Engineering'
           date='09/2020 - Present'
           description={[
             'Applied Data Science practices analyzing the impact of cruise emissions and used Deep Learning for time series forecasting on the air quality of the second largest city of Denmark, Århus.',
-            ' This work is a collaboration with the Aarhus City Lab team, ITK department at DOKK1 (Århus, Denmark). A media coverage for the work: \href{https://itk.aarhus.dk/nyheder/projektnyheder/krydstogtskibe/cruise-ships/}{itk.aarhus.dk/nyheder/projektnyheder/krydstogtskibe/cruise-ships/}. More information, please visit github.com/nussarafirn/aarhus-aqi.'
+            ' This work is a collaboration with the Aarhus City Lab team, ITK department at DOKK1 (Århus, Denmark). A media coverage for the work: https://itk.aarhus.dk/nyheder/projektnyheder/krydstogtskibe/cruise-ships. More information, please visit github.com/nussarafirn/aarhus-aqi.'
           ]}
           thumbnail='img/cse.png'
           left
