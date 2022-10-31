@@ -37,7 +37,7 @@ const Home: NextPage = () => {
           help with installations, teach technical workshops, and expand community outreach. 
         </p>
 
-        <p>Let's exchange ideas and opportunity here at <a href='mailto:nussara@cs.washington.edu' className='button link' style={{fontFamily: 'Courier Prime'}}> nussara [at] cs.washington.edu </a>.</p>
+        <p>Let&apos;s exchange ideas and opportunity here at <a href='mailto:nussara@cs.washington.edu' className='button link' style={{fontFamily: 'Courier Prime'}}> nussara [at] cs.washington.edu</a>.</p>
       </div>
     </div>
   </Page>;
