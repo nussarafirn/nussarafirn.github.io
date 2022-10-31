@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals'
 const Home: NextPage = () => {
   return <CV title="CV | Nussara 'Firn' Tieanklin">
     <embed
-      src="https://nussarafirn.github.io/resume"
+      src="https://nussarafirn.github.io/resume/resume-nussara-08-22.pdf"
       type="application/pdf"
       width="100%"
       height="1000px"
