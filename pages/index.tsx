@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
         <p>
           I&apos;m Nussara Tieanklin or Firn.
-          I am a second-year Ph.D. Student, advised by <a href='https://kurti.sh/' className='button link'>
+          I am a Ph.D. Student, advised by <a href='https://kurti.sh/' className='button link'>
             Professor Kurtis Heimerl</a> in the <a href='https://ictd.cs.washington.edu' className='button link'>Information
           and Communication Technology for Development (ICTD) Lab </a> at 
           Paul G. Allen School of Computer Science and Engineering,
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         </p>
         <p>
           I am also interested in using community networks bridging the digital divide.
-          As a techno-social lead in the <a href='https://seattlecommunitynetwork.org/' className='button link'>Seattle Community Network</a>, I conduct qualitative researches,
+          Aside from helping technical installations and community outreach in the <a href='https://seattlecommunitynetwork.org/' className='button link'>Seattle Community Network</a>, I also conduct qualitative researches,
           help with installations, teach technical workshops, and expand community outreach. 
         </p>
 

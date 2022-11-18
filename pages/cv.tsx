@@ -4,6 +4,9 @@ import reportWebVitals from './reportWebVitals'
 
 const Home: NextPage = () => {
   return <CV title="CV | Nussara 'Firn' Tieanklin">
+    <a className="button_cv" href="http://nussarafirn.github.io/resume">
+      Download CV
+    </a>
     <iframe
       src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://nussarafirn.github.io/resume/resume.pdf#toolbar=0&scrollbar=0"
       frameBorder="0"
