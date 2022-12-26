@@ -36,4 +36,4 @@ jobs:
     - name: Deploy to UW CSE Domain
       run: |
         ssh -o StrictHostKeyChecking=no -i ./id_rsa ${{secrets.CSE_USER}}@${{secrets.CSE_HOST}} "rm -r /cse/web/homes/${{secrets.CSE_USER}}/*"
-        scp -o StrictHostKeyChecking=no -i ./id_rsa -r ./out ${{secrets.CSE_USER}}@${{secrets.CSE_HOST}}:/cse/web/homes/${{secrets.CSE_USER}}
+        scp -o StrictHostKeyChecking=no -i ./id_rsa -r ./out/* ${{secrets.CSE_USER}}@${{secrets.CSE_HOST}}:/cse/web/homes/${{secrets.CSE_USER}}
