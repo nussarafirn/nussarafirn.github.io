@@ -52,6 +52,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   padding-top: 20px;
+  /* margin-bottom: 10px; */
   padding-bottom: 40px;
   
   font-size: medium;
@@ -100,6 +101,10 @@ p {
   font-family: sans-serif;
   color: #ffffff;
   font-weight: bold;
+}
+
+.home-button {
+  height: 25px;
 }
 
 .button:hover {
