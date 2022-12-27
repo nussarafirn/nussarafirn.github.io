@@ -73,16 +73,33 @@ p {
   text-decoration: none;
 }
 
-.button_cv {
-  
-  width: 288px;
-  height: 79px;
-  left: 540px;
-  top: 113px;
+.button-cv-wrap {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+}
+
+.button-cv {
+  width: 150px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  justify-items: center;
 
   background: #EDBD41;
-  border: 3px solid #FAC26E;
+  border: 3px solid #efae0a;
+  border-radius: 5px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-cv > a {
+  margin: auto;
+  font-family: sans-serif;
+  color: #ffffff;
+  font-weight: bold;
 }
 
 .button:hover {
