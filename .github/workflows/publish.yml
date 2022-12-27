@@ -27,3 +27,13 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages # The branch the action should deploy to.
         FOLDER: out # The folder the action should deploy.
+
+#     - name: Setup SSH
+#       run: |
+#         echo "${{secrets.SSH_SECRET_KEY}}" >> id_rsa
+#         chmod 600 id_rsa
+
+#     - name: Deploy to UW CSE Domain
+#       run: |
+#         ssh -o StrictHostKeyChecking=no -i ./id_rsa ${{secrets.CSE_USER}}@${{secrets.CSE_HOST}} "rm -r /cse/web/homes/${{secrets.CSE_USER}}/*"
+#         scp -o StrictHostKeyChecking=no -i ./id_rsa -r ./out/* ${{secrets.CSE_USER}}@${{secrets.CSE_HOST}}:/cse/web/homes/${{secrets.CSE_USER}}
