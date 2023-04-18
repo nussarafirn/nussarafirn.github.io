@@ -48,7 +48,7 @@ const Home: NextPage = () => {
       </h3>
       <ul>
         <UpdateEntry date={new Date('2023-04-17T10:30:00-0700')}>
-          I just passed my qualification exam, watch my talk <a className='button link' href='https://youtu.be/qKHkrK63t6U'>here</a>!
+          I just passed my qualification exam, watch my talk <a className='button link' href='https://youtu.be/qKHkrK63t6U'>here</a>.
         </UpdateEntry>
       </ul>
     </div>
