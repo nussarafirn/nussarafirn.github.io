@@ -41,6 +41,17 @@ h1 > span {
   color: rgb(164, 113, 4);
 }
 
+
+h3 {
+  font-family: 'DM Serif Display';
+}
+
+h3 > span {
+  font-family: 'DM Serif Display';
+  font-style: italic;
+  color: rgb(164, 113, 4);
+}
+
 p {
   text-align: justify;
   font-family: 'DM Sans';
@@ -107,12 +118,16 @@ p {
   height: 25px;
 }
 
+.home-button > a:hover {
+  color: black;
+}
+
 .button:hover {
   /* font-style: italic; */
   cursor: pointer;
   text-decoration: underline;
   text-decoration-thickness: 3px;
-  text-decoration-color:rgb(255, 186, 36) ;
+  text-decoration-color:rgb(255, 186, 36);
 }
 
 .button:active {
@@ -122,6 +137,10 @@ p {
 .link{
   color: rgb(164, 113, 4);
   font-weight: 350;
+}
+
+.link:hover {
+  color: rgb(164, 113, 4);
 }
 
 .profile-img-container {

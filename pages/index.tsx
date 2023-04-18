@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import reportWebVitals from './reportWebVitals'
 import Picture from './components/picture'
 import Page from './components/page';
+import UpdateEntry from './components/update-entry';
+
 
 const Home: NextPage = () => {
   return <Page title="Nussara 'Firn' Tieanklin">
@@ -15,7 +17,7 @@ const Home: NextPage = () => {
       />
       
       <div>
-        <h1> Hello, <span>Firn</span> is here!</h1>
+        <h1> Hello, <span>Firn</span>'s here!</h1>
 
         <p>
           I&apos;m Nussara Tieanklin or Firn.
@@ -39,6 +41,16 @@ const Home: NextPage = () => {
 
         <p>Let&apos;s exchange ideas and opportunity here at <a href='mailto:nussara@cs.washington.edu' className='button link' style={{fontFamily: 'Courier Prime'}}> nussara [at] cs.washington.edu</a>.</p>
       </div>
+    </div>
+    <div className='p-4'>
+      <h3>
+        <span>Latest</span> updates! 
+      </h3>
+      <ul>
+        <UpdateEntry date={new Date('2023-04-17T10:30:00-0700')}>
+          I just passed my qualification exam, watch my talk <a className='button link' href='https://youtu.be/qKHkrK63t6U'>here</a>!
+        </UpdateEntry>
+      </ul>
     </div>
   </Page>;
 }
