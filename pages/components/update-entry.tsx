@@ -7,6 +7,6 @@ interface UpdateEntryProp {
 
 export default function UpdateEntry({date, children}: UpdateEntryProp) {
     return <li><>
-        <p>{date.toDateString()}: {children}</p>
+        <p>{date?.toDateString()}: {children}</p>
     </></li>;
 }

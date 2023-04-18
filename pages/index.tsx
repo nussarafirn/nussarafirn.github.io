@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       />
       
       <div>
-        <h1> Hello, <span>Firn</span>'s here!</h1>
+        <h1> Hello, <span>Firn</span>&apos;s here!</h1>
 
         <p>
           I&apos;m Nussara Tieanklin or Firn.
