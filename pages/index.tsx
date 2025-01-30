@@ -47,10 +47,34 @@ const Home: NextPage = () => {
         <span>Latest</span> updates! 
       </h3>
       <ul>
-        <UpdateEntry date={new Date('2023-04-17T10:30:00-0700')}>
-          I just passed my qualification exam, watch my talk <a className='button link' href='https://youtu.be/qKHkrK63t6U'>here</a>.
+        <UpdateEntry date={new Date('2024-12-14T10:30:00-0700')}>
+        Presented <a className='button link' 
+        href='https://dl.acm.org/doi/pdf/10.1145/3653706'>"I will just have to keep driving": A Mixed-methods Investigation of Lack of Agency within the Thai Motorcycle Rideshare Driver Community</a> at CSCW2024 in Costa Rica!.
+        </UpdateEntry>
+      </ul> 
+      <ul>
+        <UpdateEntry date={new Date('2024-05-26T10:30:00-0700')}>
+        We've completed collecting 7 months of real-time, hyperlocalized air pollution data 
+        from motorcycle taxi drivers in Bangkok and Chiang Mai!
         </UpdateEntry>
       </ul>
+      <ul>
+        <UpdateEntry date={new Date('2024-04-26T10:30:00-0700')}>
+          The work on how financial and social pressures limit Thai motorcycle taxi drivers' 
+          autonomy to avoid air pollutions despite on the promsised flexibility of gig work, published at <a className='button link' href='https://dl.acm.org/doi/abs/10.1145/3653706'>CSCW2024</a>!.
+        </UpdateEntry>
+      </ul>
+      <ul>
+        <UpdateEntry date={new Date('2023-10-10T10:30:00-0700')}>
+          Joined <a className='button link' href='https://www.aerothai.co.th/en/services/air-traffic-flow-management'>AEROTHAI</a> as an Air Traffic Flow Data Officer ᯓ ✈︎
+        </UpdateEntry>
+      </ul>
+      <ul>
+        <UpdateEntry date={new Date('2023-07-10T10:30:00-0700')}>
+          Spent the summer in Thailand deploying mobile sensors on motorcycles to collect real-time air pollutions!
+        </UpdateEntry>
+      </ul>
+      
     </div>
   </Page>;
 }
