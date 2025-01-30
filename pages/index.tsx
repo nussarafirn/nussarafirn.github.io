@@ -49,18 +49,18 @@ const Home: NextPage = () => {
       <ul>
         <UpdateEntry date={new Date('2024-12-14T10:30:00-0700')}>
         Presented <a className='button link' 
-        href='https://dl.acm.org/doi/pdf/10.1145/3653706'>"I will just have to keep driving": A Mixed-methods Investigation of Lack of Agency within the Thai Motorcycle Rideshare Driver Community</a> at CSCW2024 in Costa Rica!.
+        href='https://dl.acm.org/doi/pdf/10.1145/3653706'>&quot;I will just have to keep driving&quot;: A Mixed-methods Investigation of Lack of Agency within the Thai Motorcycle Rideshare Driver Community</a> at CSCW2024 in Costa Rica!.
         </UpdateEntry>
       </ul> 
       <ul>
         <UpdateEntry date={new Date('2024-05-26T10:30:00-0700')}>
-        We've completed collecting 7 months of real-time, hyperlocalized air pollution data 
+        We have completed collecting 7 months of real-time, hyperlocalized air pollution data 
         from motorcycle taxi drivers in Bangkok and Chiang Mai!
         </UpdateEntry>
       </ul>
       <ul>
         <UpdateEntry date={new Date('2024-04-26T10:30:00-0700')}>
-          The work on how financial and social pressures limit Thai motorcycle taxi drivers' 
+          The work on how financial and social pressures limit Thai motorcycle taxi drivers&apos; 
           autonomy to avoid air pollutions despite on the promsised flexibility of gig work, published at <a className='button link' href='https://dl.acm.org/doi/abs/10.1145/3653706'>CSCW2024</a>!.
         </UpdateEntry>
       </ul>
@@ -74,7 +74,6 @@ const Home: NextPage = () => {
           Spent the summer in Thailand deploying mobile sensors on motorcycles to collect real-time air pollutions!
         </UpdateEntry>
       </ul>
-      
     </div>
   </Page>;
 }

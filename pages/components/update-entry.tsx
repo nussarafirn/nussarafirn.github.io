@@ -1,14 +1,19 @@
 import { Children, ReactElement } from "react";
 
-export default function UpdateEntry({ date, children }: UpdateEntryProp) {
-    const formattedDate = new Intl.DateTimeFormat('en-US', {
-        month: 'short',
-        year: 'numeric',
-    }).format(date);
+interface UpdateEntryProp {
+  date: Date; 
+  children: React.ReactNode;
+}
 
-    return (
-        <li>
-            <p><b><i>{formattedDate}:</i></b> {children}</p>
-        </li>
-    )
+export default function UpdateEntry({ date, children }: UpdateEntryProp) {
+  const formattedDate = new Intl.DateTimeFormat('en-US', {
+    month: 'short',
+    year: 'numeric',
+  }).format(date);
+
+  return (
+    <li>
+      <p><b><i>{formattedDate}:</i></b> {children}</p>
+    </li>
+  );
 }
