@@ -28,7 +28,7 @@ const Home: NextPage = () => {
           University of Washington (Seattle, WA).
         </p>
         <p>
-          My research interests center on the integration of qualitative inquiry, mixed methods, 
+          My research interests center on the integration of qualitative study, mixed methods, 
           and machine learning within the broader framework of Data Science for Social Good. 
           I investigate structural determinants of health and environmental justice among marginalized populations, 
           with recent work analyzing the effects of air pollution on motorcycle rideshare drivers in Southeast Asia. 
