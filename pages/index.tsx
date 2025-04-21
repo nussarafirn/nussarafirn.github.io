@@ -28,10 +28,13 @@ const Home: NextPage = () => {
           University of Washington (Seattle, WA).
         </p>
         <p>
-          My research interests lie within the umbrella of Data Science for Social Good using
-          mixed methods research and machine learning approach.
-          The current research in the area is included but not limited to analyzing
-          the effects of air pollution on the motorcycle-taxi Grab workers in Southeast Asia. 
+          My research interests center on the integration of qualitative inquiry, mixed methods, 
+          and machine learning within the broader framework of Data Science for Social Good. 
+          I investigate structural determinants of health and environmental justice among marginalized populations, 
+          with recent work analyzing the effects of air pollution on motorcycle rideshare drivers in Southeast Asia. 
+          Through 7 months-long longitudinal personal exposure monitoring and in-depth qualitative interviews, 
+          my research examines how systemic economic pressures and limited worker agency contribute to sustained health 
+          risks in the gig economy.
         </p>
         <p>
           I am also interested in using community networks bridging the digital divide.
